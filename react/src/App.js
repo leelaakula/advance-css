@@ -14,11 +14,11 @@ const App = () => {
           <a href='#'>Contact</a>
         </li>
       </ul>
-      <div class='buttons'>
-        <a class='btn btn-main' href='#'>
+      <div className='buttons'>
+        <a className='btn btn-main' href='#'>
           Sign Up
         </a>
-        <a class='btn btn-hot' href='#'>
+        <a className='btn btn-hot' href='#'>
           Get a Quote
         </a>
       </div>
