@@ -1,25 +1,31 @@
-import './App.scss';
-import logo from './logo.svg';
+import './App.scss'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <nav>
+        <ul className='navigation'>
+          <li>
+            <a href='#'>About us</a>
+          </li>
+          <li>
+            <a href='#'>Pricing</a>
+          </li>
+          <li>
+            <a href='#'>Contact</a>
+          </li>
+        </ul>
+        <div class='button'>
+          <a class='btn btn-main' href='#'>
+            Sign Up
+          </a>
+          <a class='btn btn-hot' href='#'>
+            Get a Quote
+          </a>
+        </div>
+      </nav>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
